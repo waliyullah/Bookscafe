@@ -1,0 +1,310 @@
+
+/*home page*/
+body{
+	background-color: #f4f4f4;
+	color:#555;
+	font-family:cursive, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin:0;  
+}
+.container{
+	width:80%;
+	margin: auto;
+	overflow:hidden;
+}
+#showcase footer{
+	text-decoration: underline;
+}
+
+#main-header{
+	background-color: coral;
+	color: #fff;
+
+}
+
+#navbar{
+	background-color: #333;
+	color: #fff;
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none;
+}
+#navbar li{
+	display:inline;
+}
+#navbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+#navbar a:hover{
+	color:coral;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+#navtag{
+	background-color: coral;
+	color:#ffff;
+}
+
+#navtag a{
+	color:#333;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+#navtag ul{
+	padding:0;
+	list-style: none;
+}
+
+#navtag li{
+	display: inline;
+}
+
+#navtag a:hover{
+	color:#fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+#showcase{
+	background-image: url('../images/success.jpg');
+	background-image-width:20px;
+	background-position: center right;
+	min-height:150;
+	margin-bottom:30px;
+	text-align: center;
+}
+#showcase h1{
+	color:#333;
+	/*font-size: 50px;*/
+	line-height: 1.6em;
+	padding-top: 30px;
+
+}
+
+#main{
+	float:left;
+	width:70%;
+	padding: 0 30px;
+	box-sizing:border-box;
+	background-color: coral;
+}
+
+#sidebar{
+	float: right;
+	width: 30%;
+	background:#333;
+	color:#fff;
+	padding: 10px;
+	box-sizing:border-box;
+}
+
+.cite{
+	float: right;
+}
+
+#main-footer{
+	background: #333;
+	color:#fff;
+	text-align: center;
+	padding:20px;
+	margin-top: 80px;
+}
+
+
+	
+@media(max-width: 600px){
+	#main{
+		width: 100%;
+		float: right;
+	}
+	#sidebar{
+		width: 100%;
+		float: none;
+	}
+}
+
+/*about page*/
+
+h2{
+	text-align: center;
+	text-decoration: underline;
+	padding-bottom: 50px;
+} 
+.box-1 p{
+	background: coral;
+	color:#ffff;
+	padding: 50px;
+	margin:50px;
+}
+
+.box-2 p{
+	background: #333;
+	color:#fff;
+	padding:50px;
+	margin:50px;
+	text-decoration:none;
+}
+
+
+
+/*inspirational books*/
+/*
+#searchbar th{
+	background:coral;
+	text-align:center;	*/
+}
+/*
+#searchbar li{
+	
+	color:#333;
+	display:inline;
+
+	
+}*/
+
+.block cite{
+	text-decoration: underline;
+}
+/*
+.block{
+	float: right;
+	width:33.3%;
+	border:5px solid  #ccc;
+	padding-bottom: 50px;
+	box-sizing:border-box;
+
+}*/
+/*
+#main-block{
+	float:right;
+	width:33.3%;
+	background-color: #333;
+	color:#fff;
+	padding:15px;
+	box-sizing: border-box;
+}
+
+#main-block h3{
+	background: coral;
+	color:#333;
+}
+
+#main-block a{
+	text-decoration: none;
+	color:#fff;
+}
+#main-block a:hover{
+	color:coral;
+}
+
+.main-block{
+	float: left;
+	width: 33.3%;
+	background:coral;
+	color:#333;
+	padding:15px;
+	box-sizing: border-box;
+}
+
+.main-block h3{
+	background:#333;
+	color:coral;
+}
+
+.main-block a{
+	text-decoration: none;
+	color:#333;
+}
+.main-block a:hover{
+	color:#fff;
+}
+
+.block{
+
+	float:center;
+	width: 33.3%;
+	background:#333;
+	color:#fff;
+	padding:15px;
+	box-sizing: border-box;
+}
+
+.box-3{
+
+}*/
+.block{
+	float:left;
+	width:33.3%;
+	border:1px solid #ccc;
+	padding:10px;
+	box-sizing:border-box;
+
+}
+
+.block a{
+	text-decoration: none;
+	color:#fff;
+}
+.box-3{
+	background-color: #333;
+	color:#fff;
+}
+.box-4{
+	background:coral;
+	color:#333;
+}
+
+.box-3 a:hover{
+	color:coral;
+}
+.box-4 a:hover{
+	color:#333;
+}
+
+.button{
+	float: right;
+	background:#333;
+	color:#fff;
+	text-decoration:none;
+}
+.button a:hover{
+	color:#fff;
+}
+
+#button{
+	background:#fff;
+	color:coral;
+	float: left;
+}
+#button a:hover{
+	color:coral;
+}
+
+.header1{
+	text-decoration: none;
+	text-align: center;
+}
+/*books category*/
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 400px;
+  text-align: center;
+}
+h4{
+	text-align: center;
+}
